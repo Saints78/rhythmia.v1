@@ -1,0 +1,49 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Rhythmia</title>
+
+    <link id="favicon" rel="icon" href="/Record.png" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!--Imported Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/app.js"></script>
+  </head>
+  <body>
+
+    <nav>
+        <a href="/index.html">Home</a>
+        <h1>Rhythmia</h1>
+        <a href="/info.html">Information</a>
+    </nav>
+    
+    <h2>Welcome to Rhythmia!</h2>
+
+    <h3>Get a playlist to workout to, curated by your own tastes!</h3>
+
+    <div id = "button">
+        <a href="https://accounts.spotify.com/authorize?client_id=ad77472e217f43978b60be910b3304f8&response_type=code&redirect_uri=http://127.0.0.1:5500/index.html&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-recently-played%20user-modify-playback-state%20playlist-modify-public%20user-top-read&state=open">
+        <button id="authenticate" onclick="requestAuthorization()">Get Started!</button>
+        </a>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

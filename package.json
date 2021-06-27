@@ -1,0 +1,22 @@
+{
+  "name": "rhythmia",
+  "version": "1.0.0",
+  "description": "A workout web application that creates a workout playlist based on your tastes and how long the workout will be",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Saints78/rhythmia"
+  },
+  "keywords": [
+    "rhytmia"
+  ],
+  "author": "Antonio Alphonse",
+  "license": "ISC",
+  "dependencies": {
+    "spotify-web-api-js": "^1.5.1",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
