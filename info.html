@@ -1,0 +1,120 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+
+    <title>Rhythmia</title>
+
+    <link id="favicon" rel="icon" href="/Record.png" type="image/x-icon">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!--Imported Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+    <nav>
+        <a href="/index.html">Home</a>
+        <h1>Rhythmia</h1>
+        <a href="/info.html">Information</a>
+    </nav>
+
+    <div id="qna">
+      <h1 id="questions">
+        <q><i>Sooooo... what is Rhythmia?</i></q>
+      </h1>
+  
+      <h2 id="answers">
+        Rhytmia is a web application designed to create a playlist to workout to!
+        Think of it like a scheduler. It <!--lets you make it however long it needs to be-->
+        makes a 30 minute playlist, while taking into account the recommended times for warmups and cooldowns.
+      </h2>
+
+      <h1 id="questions">
+        <q><i>How does it work?</i></q>
+      </h1>
+  
+      <h2 id="answers">
+       There were multiple ideas, but considering that this had to be made within a day,
+       we opted to only look at your liked songs, and make a playlist based on your liked
+       songs. More functionality to branch out to different artists in the genre would
+       be added. An interactivity function was pitched to make it like a roguelike
+       game to make your playlist, but that doesn't seem feasible to do within a day.
+      </h2>
+  
+      <h1 id="questions">
+        <q><i>Why even make this in the first place?</i></q>
+      </h1>
+  
+      <h2 id="answers">
+        Some people (myself included) don't really know what to play when to workout, or don't
+        really feel bothered to make a playlist beforehand. Others (myself also included) have 
+        a liked songs playlist or an amalgamation of songs, and tend to scroll through songs until 
+        just the <u>right</u> song hits. This aims to help alleviate that problem.
+  
+        <h3>If none of the above applied to you (kudos to your dedication to making playlists!), I think
+          it's good to know that there are studies backed up on the idea that playlists of a certain structure
+          can improve performance.
+        </h3>
+      </h2>
+  
+      
+      <h1 id="questions">
+        <q><i>Can you support what you're saying is true and not some marketing scheme?</i></q>
+      </h1>
+  
+      <h2 id="answers">
+        That's a good question! 
+        <br><br>I get most places tend to say things and not found them upon research.
+        Luckily, before even making this, I did some research beforehand to make sure there was some
+        benefit from this. 
+        <br><br>Music on a psychological basis provide motivation to workout.
+        Warmups and cooldowns for exercises tend to last around 5 to 10 minutes each according to Harvard Health Publishing.
+        Additionally, there are optimal BPMs for songs during warmups and cooldowns. According to "A Healthier Michigan",
+        songs during warmups should start around 80 or 90 BPM and ramp up progressively to between 120 and 140 to signify 
+        intense workout. 
+        <br><br>
+      </h2>
+
+      <h4 id="answers">
+        ( For reference, I linked my sources in the description. )
+      </h2>
+    </div>
+
+    <h4>Sources:
+        <ul id="sources">
+            <li>
+              <a href = "https://www.ahealthiermichigan.org/2014/03/17/the-science-behind-the-perfect-workout-playlist/">
+              The Science Behind the Perfect Workout Playlist - A Healthier Michigan
+              </a>
+            </li>
+            <li>
+              <a href = "https://www.health.harvard.edu/staying-healthy/exercise-101-dont-skip-the-warm-up-or-cool-down">
+                Exercise 101: Don't skip the warm-up or cool-down - Harvard Health Publishing
+              </a>
+            </li>
+            <li>
+              <a href = "https://www.ahealthiermichigan.org/2014/03/17/the-science-behind-the-perfect-workout-playlist/">
+              The Science Behind the Perfect Workout Playlist - A Healthier Michigan
+              </a>
+            </li>
+        </ul>
+    </h4>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+h1{
+    font-family: "Staatliches";
+    font-size: 15vh;
+}
+
+body{
+    font-family: "Comfortaa";
+    background-color: #a73131;
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom:solid 7px;
+    border-color: white;
+}
+
+nav *{
+    font-family: "Staatliches";
+    /* padding: 0px 50px 0px 50px; */
+    margin: auto;
+}
+
+nav a{
+    font-size: 30px;
+}
+
+button{
+    background-color: #f75252;
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 50px;
+    font-family: "Staatliches";
+
+    padding: 50px;
+    margin-left: 35vw;
+
+    box-shadow: #942c2c 10px 10px 3.2px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+#sources a:visited{
+    color: inherit;
+}
+
+#sources li{
+    padding: 5px;
+}
+
+
+#qna{
+    margin: 0px 15px 0px 15px;
+}
+
+#questions{
+    font-size: 7vh;
+}
+
+#answers{
+    text-align: left;
+    margin-left: 30px;
+}
+
